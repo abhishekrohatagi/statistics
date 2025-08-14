@@ -105,4 +105,4 @@ Ethereum CV: =STDEV.S(ETH_range) / AVERAGE(ETH_range)
 
 ---
 
-If you want, I can make you a **comparison chart** for SD vs CV with examples so you instantly see why CV gives more insight than SD in some cases. That would make it very visual.
+
