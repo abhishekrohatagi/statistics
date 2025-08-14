@@ -65,4 +65,32 @@
 
 ---
 
+Here’s the general **sample skewness** formula (the one Excel’s `SKEW()` uses):
+
+$$
+g_1 = \frac{n}{(n-1)(n-2)} \; \sum_{i=1}^n \left( \frac{x_i - \bar{x}}{s} \right)^3
+$$
+
+Where:
+
+* $n$ = sample size
+* $x_i$ = each data point
+* $\bar{x}$ = sample mean
+* $s$ = sample standard deviation
+* The exponent $3$ means we cube the standardized distances from the mean.
+
+---
+
+**For a population** (rare in practice), the formula is simpler:
+
+$$
+\text{Skewness} = \frac{\frac{1}{n} \sum_{i=1}^n (x_i - \mu)^3}{\sigma^3}
+$$
+
+Where $\mu$ and $\sigma$ are the population mean and standard deviation.
+
+---
+
+That $n/(n-1)(n-2)$ factor in the sample version is just a **bias correction**, so the estimate is more accurate when $n$ is small.
+
 
