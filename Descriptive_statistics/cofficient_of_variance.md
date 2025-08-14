@@ -1,4 +1,7 @@
+
+
 ---
+
 ## **1. Why We Need the Coefficient of Variation**
 
 * Standard deviation (**SD**) measures **absolute spread** (in original units).
