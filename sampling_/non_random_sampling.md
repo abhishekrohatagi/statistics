@@ -71,4 +71,3 @@ Similar to stratified sampling but **without randomness**.
 ---
 
 
-Do you want me to also prepare a **flowchart/diagram style summary** (Random vs Non-Random → Types → Pros/Cons) for your notebook?
