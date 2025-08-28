@@ -75,4 +75,3 @@ $$
 ---
 
 
-Would you like me to also explain **how conditional probability is applied in machine learning models (like Naive Bayes)** since that’s often asked in analytics/data science interviews?
